@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt]{article}
+%{{{Preamble
+\usepackage{mathtools}
+\title{AP Physics C Review}
+\author{Collin Tod}
+%}}}
+\begin{document}
+	\pagenumbering{gobble}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\pagenumbering{Roman}
+
+	%{{{Vectors
+	\part{Vectors}
+		%{{{Basics
+		\section{Basics}
+			The Unit Vectors
+			\begin{equation*}
+				\hat{i} + \hat{j} + \hat{k}
+			\end{equation*}
+			\noindent	
+			Alternate notation:
+			\begin{equation*}
+					\vec{v} = \langle x,y,z\rangle
+			\end{equation*}
+			\noindent
+			$\hat{i} =$ positive $x$ direction \\*
+			$\hat{j} =$ positive $y$ direction \\*
+			$\hat{k} =$ positive $z$ direction \\*
+		%}}}
+		%{{{Operations
+		\section{Vector Operations}
+			%{{{Adding
+			\subsection{Adding Vectors}
+				To add 2 or more vectors together, simply add the separate components of each vector. \\*
+				ex:\\*\\*
+					\indent let $\vec{A} = 4.2\hat{i} -1.5\hat{j}$\\* 
+					\indent let $\vec{B} = -1.6\hat{i} +2.9\hat{k}$\\*
+					\indent $\vec{A} + \vec{B} = 4.2\hat{i} - 1.6\hat{i} -1.5\hat{j} + 2.9\hat{k} = 3.6\hat{i} -1.5\hat{j} + 2.9\hat{k}$
+					%}}}
+			%{{{Multiplication
+			\subsection{Vector Multiplication}
+				There are two ways to multiply vectors, one of which produces a scalar and the other another vector:
+				\begin{itemize}
+						\item Dot Product: $\vec{a} \cdot \vec{b} =$ Scalar
+						\item Cross Product: $\vec{a} \times \vec{b}=$ Vector
+				\end{itemize}
+				
+				%{{{Dot Product
+				\subsubsection{Dot Product}
+					The dot product takes two vectors as arguments and returns a scalar. It is defined in two waus:
+					\begin{itemize}
+							\item $\vec{a} \cdot \vec{b} = \|a\|\|b\|\cos(\theta)$\\*
+									Where $\|v\|$ is the length of a vector $v$  $\left( \sqrt{v_{x}^{2} + v_{y}^{2} + v_{z}^{2}}\right)$, and $\theta$ is the angle between the two vectors.
+							\item $\hat{a} \cdot \hat{b} = (a_{x}b_{x} + a_{y}b_{y} + a_{z}b_{z})$ 
+					\end{itemize}
+					\paragraph{Properties}
+					Some basic properties of the dot product are as follows
+					\begin{itemize}
+							\item $\hat{i} \cdot \hat{i} = \hat{j} \cdot \hat{j} = \hat{k} \cdot \hat{k} = 1$
+							\item $\hat{i} \cdot \hat{j}=\hat{k} \cdot \hat{j}=\hat{k} \cdot \hat{i} = 0$ 
+					\end{itemize}
+				%}}}
+				%{{{Cross Product
+				\subsubsection{Cross Product}
+				The cross product takes two vectors and produces a third that is perpindicular to both initial vectors, thus it must be performed in 3d space. This is the basis of the right hand rule, which will be expanded upon later:
+				\begin{itemize}
+						\item $\hat{i} \times \hat{j}=\hat{k}$
+						\item $\hat{j} \times \hat{k}=\hat{i}$
+						\item $\hat{k} \times \hat{i}=\hat{j}$
+				\end{itemize}
+				
+				In general, the cross product is defined as
+				\begin{equation*}
+						\vec{a} \times \vec{b} = \|a\|\|b\|\sin{\theta}c
+				\end{equation*}
+
+				Where $\|v\|$ is the length of a vector $\vec{v}$  $\left( \sqrt{v_{x}^{2} + v_{y}^{2} + v_{z}^{2}}\right)$,$\theta$ is the angle between the two vectors, and c is a unit vector perpindicular to both $a$ and $b$. This is not easily implemented though. Thus, the formula is also given by:
+				\begin{equation*}
+						\vec{a} \times \vec{b} = \langle a_{y}b_{z} - a_{z}b_{y}, a_{z}b_{x} - a_{x}b_{z}, a_{x}b_{y}-a_{y}b_{x}\rangle
+				\end{equation*}
+				This isn't much better, but there is another way to determine the cross product:
+				\begin{equation*}
+						\vec{a} \times \vec{b} = \begin{bmatrix}
+						a_{y} & a_{z} \\
+						b_{y} & b_{z} 
+						\end{bmatrix}\hat{i} - \begin{bmatrix}
+						a_{x} & a_{z} \\
+						b_{x}& b_{z} 
+						\end{bmatrix}\hat{j} + \begin{bmatrix}
+						a_{x} & a_{y} \\
+						b_{x}& b_{y} 
+						\end{bmatrix}\hat{k} 
+				\end{equation*}
+				Where,
+				\begin{equation*}
+						\begin{bmatrix}
+								a & b \\
+								c & d
+						\end{bmatrix} = ad-bc
+				\end{equation*}
+				%}}}
+			%}}}
+		%}}}
+	\newpage
+	%}}}
+	\part{Electrostatics and Magnetism}
+
+\end{document} 
