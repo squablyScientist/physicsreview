@@ -22,5 +22,6 @@
 \contentsline {subsection}{\numberline {2.2}Part of a Ring}{V}
 \contentsline {subsubsection}{\numberline {2.2.1}Setting Up the Integral}{V}
 \contentsline {subsubsection}{\numberline {2.2.2}Integration}{VI}
+\contentsline {section}{\numberline {3}Gauss' Law}{VI}
 \contentsline {part}{III\hspace {1em}Mechanics}{VII}
 \contentsline {section}{\numberline {1}Kinematics Review}{VII}
