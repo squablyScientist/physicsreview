@@ -5,107 +5,264 @@
 \author{Collin Tod}
 %}}}
 \begin{document}
-	\pagenumbering{gobble}
-	\maketitle
-	\newpage
-	\tableofcontents
-	\newpage
-	\pagenumbering{Roman}
+\pagenumbering{gobble}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{Roman}
 
-	%{{{Vectors
-	\part{Vectors}
+%{{{Vectors
+\part{Vectors}
 		%{{{Basics
 		\section{Basics}
-			The Unit Vectors
-			\begin{equation*}
-				\hat{i} + \hat{j} + \hat{k}
-			\end{equation*}
-			\noindent	
-			Alternate notation:
-			\begin{equation*}
-					\vec{v} = \langle x,y,z\rangle
-			\end{equation*}
-			\noindent
-			$\hat{i} =$ positive $x$ direction \\*
-			$\hat{j} =$ positive $y$ direction \\*
-			$\hat{k} =$ positive $z$ direction \\*
+				The Unit Vectors
+				\begin{equation*}
+						\hat{i} + \hat{j} + \hat{k}
+				\end{equation*}
+				\noindent	
+				Alternate notation:
+				\begin{equation*}
+						\vec{v} = \langle x,y,z\rangle
+				\end{equation*}
+				\noindent
+				$\hat{i} =$ positive $x$ direction \\*
+				$\hat{j} =$ positive $y$ direction \\*
+				$\hat{k} =$ positive $z$ direction \\*
 		%}}}
 		%{{{Operations
 		\section{Vector Operations}
-			%{{{Adding
-			\subsection{Adding Vectors}
-				To add 2 or more vectors together, simply add the separate components of each vector. \\*
-				ex:\\*\\*
-					\indent let $\vec{A} = 4.2\hat{i} -1.5\hat{j}$\\* 
-					\indent let $\vec{B} = -1.6\hat{i} +2.9\hat{k}$\\*
-					\indent $\vec{A} + \vec{B} = 4.2\hat{i} - 1.6\hat{i} -1.5\hat{j} + 2.9\hat{k} = 3.6\hat{i} -1.5\hat{j} + 2.9\hat{k}$
-					%}}}
-			%{{{Multiplication
-			\subsection{Vector Multiplication}
-				There are two ways to multiply vectors, one of which produces a scalar and the other another vector:
-				\begin{itemize}
-						\item Dot Product: $\vec{a} \cdot \vec{b} =$ Scalar
-						\item Cross Product: $\vec{a} \times \vec{b}=$ Vector
-				\end{itemize}
-				
-				%{{{Dot Product
-				\subsubsection{Dot Product}
-					The dot product takes two vectors as arguments and returns a scalar. It is defined in two waus:
-					\begin{itemize}
-							\item $\vec{a} \cdot \vec{b} = \|a\|\|b\|\cos(\theta)$\\*
-									Where $\|v\|$ is the length of a vector $v$  $\left( \sqrt{v_{x}^{2} + v_{y}^{2} + v_{z}^{2}}\right)$, and $\theta$ is the angle between the two vectors.
-							\item $\hat{a} \cdot \hat{b} = (a_{x}b_{x} + a_{y}b_{y} + a_{z}b_{z})$ 
-					\end{itemize}
-					\paragraph{Properties}
-					Some basic properties of the dot product are as follows
-					\begin{itemize}
-							\item $\hat{i} \cdot \hat{i} = \hat{j} \cdot \hat{j} = \hat{k} \cdot \hat{k} = 1$
-							\item $\hat{i} \cdot \hat{j}=\hat{k} \cdot \hat{j}=\hat{k} \cdot \hat{i} = 0$ 
-					\end{itemize}
+				%{{{Adding
+				\subsection{Adding Vectors}
+						To add 2 or more vectors together, simply add the separate components of each vector. \\*
+						ex:\\*\\*
+						\indent let $\vec{A} = 4.2\hat{i} -1.5\hat{j}$\\* 
+						\indent let $\vec{B} = -1.6\hat{i} +2.9\hat{k}$\\*
+						\indent $\vec{A} + \vec{B} = 4.2\hat{i} - 1.6\hat{i} -1.5\hat{j} + 2.9\hat{k} = 3.6\hat{i} -1.5\hat{j} + 2.9\hat{k}$
 				%}}}
-				%{{{Cross Product
-				\subsubsection{Cross Product}
-				The cross product takes two vectors and produces a third that is perpindicular to both initial vectors, thus it must be performed in 3d space. This is the basis of the right hand rule, which will be expanded upon later:
-				\begin{itemize}
-						\item $\hat{i} \times \hat{j}=\hat{k}$
-						\item $\hat{j} \times \hat{k}=\hat{i}$
-						\item $\hat{k} \times \hat{i}=\hat{j}$
-				\end{itemize}
-				
-				In general, the cross product is defined as
-				\begin{equation*}
-						\vec{a} \times \vec{b} = \|a\|\|b\|\sin{\theta}c
-				\end{equation*}
+				%{{{Multiplication
+				\subsection{Vector Multiplication}
+						There are two ways to multiply vectors, one of which produces a scalar and the other another vector:
+						\begin{itemize}
+								\item Dot Product: $\vec{a} \cdot \vec{b} =$ Scalar
+								\item Cross Product: $\vec{a} \times \vec{b}=$ Vector
+						\end{itemize}
 
-				Where $\|v\|$ is the length of a vector $\vec{v}$  $\left( \sqrt{v_{x}^{2} + v_{y}^{2} + v_{z}^{2}}\right)$,$\theta$ is the angle between the two vectors, and c is a unit vector perpindicular to both $a$ and $b$. This is not easily implemented though. Thus, the formula is also given by:
-				\begin{equation*}
-						\vec{a} \times \vec{b} = \langle a_{y}b_{z} - a_{z}b_{y}, a_{z}b_{x} - a_{x}b_{z}, a_{x}b_{y}-a_{y}b_{x}\rangle
-				\end{equation*}
-				This isn't much better, but there is another way to determine the cross product:
-				\begin{equation*}
-						\vec{a} \times \vec{b} = \begin{bmatrix}
-						a_{y} & a_{z} \\
-						b_{y} & b_{z} 
-						\end{bmatrix}\hat{i} - \begin{bmatrix}
-						a_{x} & a_{z} \\
-						b_{x}& b_{z} 
-						\end{bmatrix}\hat{j} + \begin{bmatrix}
-						a_{x} & a_{y} \\
-						b_{x}& b_{y} 
-						\end{bmatrix}\hat{k} 
-				\end{equation*}
-				Where,
-				\begin{equation*}
-						\begin{bmatrix}
-								a & b \\
-								c & d
-						\end{bmatrix} = ad-bc
-				\end{equation*}
+						%{{{Dot Product
+						\subsubsection{Dot Product}
+								The dot product takes two vectors as arguments and returns a scalar. It is defined in two waus:
+								\begin{itemize}
+										\item $\vec{a} \cdot \vec{b} = \|a\|\|b\|\cos(\theta)$\\*
+										Where $\|v\|$ is the length of a vector $v$  $\left( \sqrt{v_{x}^{2} + v_{y}^{2} + v_{z}^{2}}\right)$, and $\theta$ is the angle between the two vectors.
+										\item $\hat{a} \cdot \hat{b} = (a_{x}b_{x} + a_{y}b_{y} + a_{z}b_{z})$ 
+								\end{itemize}
+								\paragraph{Properties}
+										Some basic properties of the dot product are as follows
+										\begin{itemize}
+												\item $\hat{i} \cdot \hat{i} = \hat{j} \cdot \hat{j} = \hat{k} \cdot \hat{k} = 1$
+												\item $\hat{i} \cdot \hat{j}=\hat{k} \cdot \hat{j}=\hat{k} \cdot \hat{i} = 0$ 
+										\end{itemize}
+						%}}}
+						%{{{Cross Product
+						\subsubsection{Cross Product}
+								The cross product takes two vectors and produces a third that is perpindicular to both initial vectors, thus it must be performed in 3d space. This is the basis of the right hand rule, which will be expanded upon later:
+								\begin{itemize}
+										\item $\hat{i} \times \hat{j}=\hat{k}$
+										\item $\hat{j} \times \hat{k}=\hat{i}$
+										\item $\hat{k} \times \hat{i}=\hat{j}$
+								\end{itemize}
+
+								In general, the cross product is defined as
+								\begin{equation*}
+										\vec{a} \times \vec{b} = \|a\|\|b\|\sin{\theta}c
+								\end{equation*}
+
+								Where $\|v\|$ is the length of a vector $\vec{v}$  $\left( \sqrt{v_{x}^{2} + v_{y}^{2} + v_{z}^{2}}\right)$,$\theta$ is the angle between the two vectors, and c is a unit vector perpindicular to both $a$ and $b$. This is not easily implemented though. Thus, the formula is also given by:
+								\begin{equation*}
+										\vec{a} \times \vec{b} = \langle a_{y}b_{z} - a_{z}b_{y}, a_{z}b_{x} - a_{x}b_{z}, a_{x}b_{y}-a_{y}b_{x}\rangle
+								\end{equation*}
+								This isn't much better, but there is another way to determine the cross product:
+								\begin{equation*}
+										\vec{a} \times \vec{b} = \begin{bmatrix}
+												a_{y} & a_{z} \\
+												b_{y} & b_{z} 
+										\end{bmatrix}\hat{i} - \begin{bmatrix}
+												a_{x} & a_{z} \\
+												b_{x}& b_{z} 
+										\end{bmatrix}\hat{j} + \begin{bmatrix}
+												a_{x} & a_{y} \\
+												b_{x}& b_{y} 
+										\end{bmatrix}\hat{k} 
+								\end{equation*}
+								Where,
+								\begin{equation*}
+										\begin{bmatrix}
+												a & b \\
+												c & d
+										\end{bmatrix} = ad-bc
+								\end{equation*}
+						%}}}
 				%}}}
-			%}}}
 		%}}}
-	\newpage
-	%}}}
-	\part{Electrostatics and Magnetism}
+		\newpage
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+%}}}
+%{{{E&M
+\part{Electrostatics and Magnetism}
+
+		%{{{Field and Voltage basics	
+		\section{Field \& Voltage Basics}
+		%{{{Coulomb's Law
+				\subsection{Coulomb's Law}
+						\subsubsection{Force}
+								The force that two charge particles exert on eacother is defined as:
+								\begin{equation*}
+										\vec{F} = k\frac{q_{1}q_{2}}{r^{2}}
+								\end{equation*}
+
+								where $q_{1}$ and $q_{2}$ are the charge values of each particle, $r$ is the distance between them, and $k = 9e^{9} \frac{Nm^{2}}{C^{2}} = \frac{1}{4\pi\epsilon_{0}}$ where $\epsilon_{0}$ is the vaccuum permittivity$\left(\epsilon_{0} = 8.854e^{-12}\frac{C^{2}}{Nm^{2}}\right)$
+
+						\subsubsection{Field}
+								The electric field generated by a point charge of $Q$ is given by
+								\begin{equation*}
+										\vec{E} = \frac{\vec{F}}{q} = \frac{kQ}{r^{2}}= \frac{Q}{4\pi\epsilon_{0}r^{2}}
+								\end{equation*}
+
+						\subsubsection{Properties of Field}
+								\begin{itemize}
+										\item Electric field may be defined as change in electric potential 
+								\end{itemize}
+						\setcounter{subsubsection}{0}
+				%}}}
+
+				%{{{Electric Potential
+				\subsection{Electric Potential}
+						Electric Potential is defined as the work required to bring a positive unit charge ($q$) from a reference point to a specific point within an electric field. The reference point is often infinity, where there is effectively no influence from the field on a charge. The electric potential created by a point charge $Q$ at distance $r$ is given by:
+						\begin{equation*}
+							V = \frac{kQ}{r} = \frac{1}{4\pi\epsilon_{0}}\frac{Q}{r}
+						\end{equation*}
+
+						For constant fields(e.g. parallel plates), the electric potential at distance $d$ from the postive place in and electric field $E$ is given by
+						\begin{equation*}
+							V = Ed
+						\end{equation*}
+
+						%{{{Potential and Work
+						\subsubsection{Electric Potenial and Work}
+								The change in electric potential is simply the work $W_{F}$ done by an external force divided by the charge $q$ of the particle that has moved. This can also be seen as a simple change in electrostatic potential energy $U_{e}$.  Thus, it is also the opposite of the work $W_{E}$ done by Coulomb force. 
+
+								\begin{equation*}
+										\Delta V = \frac{W_{F}}{q} = \frac{-W_{E}}{q} = \frac{\Delta U_{e}}{q}
+								\end{equation*}
+						%}}}
+
+						%{{{Equipotential Surfaces
+						\subsubsection{Equipotential Surfaces}
+								The collection of all point within an electric field that have equal potential is called an equipotential surface. The surfaces always form on a plane perpindicular to electric field lines, and no work is done in moving along an equipotential surface, only between them.
+
+						%}}}
+						\setcounter{subsection}{0}
+						\setcounter{subsubsection}{0}
+				%}}}
+		%}}}
+
+		%{{{Calculus Field and Potential
+		\section{Field and Potential Using Calculus}
+				\subsection{Ring Charge}
+						<image goes here>\\*
+						\subsubsection{Setting Up The Integral}
+							Since 
+							\begin{equation*}
+									E = \frac{kQ}{r^{2}}
+							\end{equation*}
+
+							thus,
+
+							\begin{equation*}
+									\mathrm{d}E = \frac{k\mathrm{d}q}{r^{2}}
+							\end{equation*}
+
+							Since the horizontal components of the field cancel out, the only remaining parts are the vertical components. Thus, the effective field integral is:
+							
+							\begin{equation*}
+									\mathrm{d}E = \frac{k\cos{\theta}\mathrm{d}q}{r^{2}}
+							\end{equation*}
+
+							Since $\cos{\theta} = \frac{Z}{r}$, 
+
+							\begin{equation*}
+									\mathrm{d}E = \frac{kZ\mathrm{d}q}{r^{3}}
+							\end{equation*}
+
+							We want $E$, not $\mathrm{d}E$, so we apply the integral:
+							
+							\begin{equation*}
+									\int \mathrm{d}E = \int \frac{kZ\mathrm{d}q}{r^{3}}
+							\end{equation*}
+
+						\subsubsection{Integrating}
+								\begin{equation*}
+										E = \int \frac{kZ\mathrm{d}q}{r^{3}} = \frac{kZQ}{r^{3}}
+								\end{equation*}
+
+								Since $r = \sqrt{Z^{2} + R^{2}}$, 
+
+								\begin{equation*}
+										E = \frac{kZQ}{(Z^{2} + R^{2})^{\frac{3}{2}}}
+								\end{equation*}
+
+				\setcounter{subsubsection}{0}
+				\subsection{Part of a Ring}
+						image goes here\\*
+						\subsubsection{Setting Up the Integral}
+								\begin{equation*}
+										\int \mathrm{d}E = \int \mathrm{k\mathrm{d}q}{r^{2}}
+								\end{equation*}
+
+								Assuming the linear charge density $\lambda$ is uniform, $\lambda = \frac{Q}{s} = \frac{\mathrm{d}{q}}{\mathrm{d}s}$ where $s$ is the arc lenghth of the segment of the ring. Thus, $\mathrm{d}q = \lambda \mathrm{d}s$ Therefore:
+								\begin{equation*}
+										E = \int \frac{k\lambda \mathrm{d}s}{r^{2}}
+								\end{equation*}
+								
+								Since the components not parallel with the line drawn from the center of the arc cancel eachother out, the actual field that is given by 
+								\begin{equation*}
+										E = \int \frac{k\lambda \cos{\theta} \mathrm{d}s}{r^{2}}
+								\end{equation*}
+
+								We then need to put the equation in terms of $\theta$ so that it can be integrated. Since $s = r\theta$, $\mathrm{d}s = r\mathrm{d}\theta$ Thus:
+								\begin{equation*}
+										E = \int_{a}^{b} \frac{k\lambda \cos{\theta}\mathrm{d}\theta}{r}
+								\end{equation*}
+								Where $a$ and $b$ are the angle bounds of the arc relative to the normal
+								
+						\subsubsection{Integration}
+								\begin{equation*}
+										E =\frac{k\lambda}{r}  \int_{a}^{b} cos{\theta}\mathrm{d}\theta
+								\end{equation*}
+										
+								\begin{equation*}
+										E = \frac{k\lambda}{r} (\sin{b} - \sin{a})
+								\end{equation*}
+				\setcounter{subsubsection}{0}
+
+		%}}}
+
+%}}}	
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\newpage
+
+%{{{Mechanics
+\part{Mechanics}
+		\section{Kinematics Review}
+		Some quick identities
+		\begin{itemize}
+				\item $v = \frac{\mathrm{d}x}{\mathrm{d}t}$
+				\item $a = \frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}} = \frac{\mathrm{d}v}{\mathrm{d}t}$
+		\end{itemize}
+%}}}
 
 \end{document} 
