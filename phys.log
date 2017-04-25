@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  24 APR 2017 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  25 APR 2017 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,11 +224,16 @@ e
 \Gin@req@width=\dimen124
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./phys.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./phys.toc
+Overfull \hbox (3.96521pt too wide) detected at line 30
+ \OT1/cmr/m/n/12 VIII
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `phys.toc'.
 
- [2]
+ [2] [3]
 Underfull \hbox (badness 10000) in paragraph at lines 27--34
 
  []
@@ -249,7 +254,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-[5] [6] [7] (./phys.aux) ) 
+[5] [6] [7] [8] [9] (./phys.aux) ) 
 Here is how much of TeX's memory you used:
  2664 strings out of 493013
  37453 string characters out of 6139317
@@ -257,24 +262,25 @@ Here is how much of TeX's memory you used:
  6184 multiletter control sequences out of 15000+600000
  10240 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,7n,30p,363b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/pub
-lic/cm/cmsy8.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr
-6.pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk> <
-/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/turgon/.
-texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10.720pk> </home/turgon/.texliv
-e/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/turgon/.texlive/texm
-f-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/turgon/.texlive/texmf-var/
-fonts/pk/ljfour/public/cm/cmbx12.1244pk> </usr/share/texmf-dist/fonts/pk/ljfour
-/public/cm/dpi600/cmr12.pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/pu
-blic/cm/cmbx12.600pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/c
-m/cmbx12.720pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx
-12.864pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720p
-k> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on phys.pdf (9 pages, 111377 bytes).
+ 54i,7n,30p,642b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/turgon/.texlive/texmf-var/fonts/pk/lj
+four/public/cm/cmsy8.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dp
+i600/cmr6.pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.
+600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/
+turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10.720pk> </home/turgon
+/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/turgon/.texl
+ive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/turgon/.texlive/te
+xmf-var/fonts/pk/ljfour/public/cm/cmbx12.1244pk> </usr/share/texmf-dist/fonts/p
+k/ljfour/public/cm/dpi600/cmr12.pk> </home/turgon/.texlive/texmf-var/fonts/pk/l
+jfour/public/cm/cmbx12.600pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/
+public/cm/cmbx12.720pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public
+/cm/cmbx12.864pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cm
+r12.720pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720
+pk>
+Output written on phys.pdf (12 pages, 126115 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 427 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
