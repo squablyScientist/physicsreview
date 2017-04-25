@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 %{{{Preamble
 \usepackage{mathtools}
+\usepackage{pgfplots}
 \title{AP Physics C Review}
 \author{Collin Tod}
 %}}}
@@ -136,7 +137,6 @@
 								\end{itemize}
 						\setcounter{subsubsection}{0}
 				%}}}
-
 				%{{{Electric Potential
 				\subsection{Electric Potential}
 						Electric Potential is defined as the work required to bring a positive unit charge ($q$) from a reference point to a specific point within an electric field. The reference point is often infinity, where there is effectively no influence from the field on a charge. The electric potential created by a point charge $Q$ at distance $r$ is given by:
@@ -167,7 +167,6 @@
 						\setcounter{subsubsection}{0}
 				%}}}
 		%}}}
-
 		%{{{Calculus Field and Potential
 		\section{Field and Potential Using Calculus}
 				\subsection{Ring Charge}
@@ -210,7 +209,7 @@
 								Since $r = \sqrt{Z^{2} + R^{2}}$, 
 
 								\begin{equation*}
-										E = \frac{kZQ}{(Z^{2} + R^{2})^{\frac{3}{2}}}
+										E = \frac{kZQ}{(Z^{2} + R^{2})^{\frac{3}{2} }}
 								\end{equation*}
 
 				\setcounter{subsubsection}{0}
@@ -319,8 +318,24 @@
 									E = \frac{q_{enc}}{4 \pi r^{2} \epsilon_{0}}
 							\end{equation*}
 
-							The graph of the field resembles:
-							GRAPH GOES HERE 
+							The graph of the field resembles:\\*
+							\begin{tikzpicture}
+									\begin{axis}[
+													xmin = 0,
+													ymin = 0,
+													xtick distance = {100},
+													extra x ticks = {1},
+													extra x tick labels = {$R$},
+													xtickmin = 0,
+													ytickmax = 0,
+													ytickmin = 0,
+													ylabel = {$E(\frac{N}{C})$},
+													xlabel = {$r(m)$}]
+												
+											\addplot[domain = 0:1]{x};
+											\addplot[domain = 1:2]{1/(x^2)};
+									\end{axis}
+							\end{tikzpicture}
 
 					\subsection{Field Within a Conducting Sphere}
 							Since electrons repel eachother, if they are allowed to move, they will move to the furthest distance that they can get from eachother. For a conduction sphere, this is the outermost level of the sphere. Thus, a charged conducting sphere is for all intents and purposes, a shell of charge. Applying Gauss' law in this situation tells us that there is 0 field everywhere within the sphere, as there is no charge enclosed in any Gaussian surface made in the sphere. The field generated from the sphere beyond the sphere itself however, behaves the same way as that of an insulating sphere, as the charge enclosed is the same. 
