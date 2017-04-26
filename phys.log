@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  25 APR 2017 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  26 APR 2017 07:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,13 +722,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 on.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.122 		\section{Field \& Voltage Basics}
+l.121 		\section{Field \& Voltage Basics}
                                           [3]pdfTeX warning (ext4): destination
  with the same identifier (name{section.2}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
-l.176 ...ction{Field and Potential Using Calculus}
+l.175 ...ction{Field and Potential Using Calculus}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{subsection.2.1}) has been already used, du
 plicate ignored
@@ -744,9 +744,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 .2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.221 				\subsection{Part of a Ring}
+l.223 				\subsection{Part of a Ring}
                                      
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
@@ -754,33 +754,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsubsection
 .2.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 ...		\subsubsection{Setting Up the Integral}
+l.225 ...		\subsubsection{Setting Up the Integral}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{subsubsection.2.2.2}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 						\subsubsection{Integration}
+l.246 						\subsubsection{Integration}
                                         [5] [6] [7] [8]pdfTeX warning (ext4): d
 estination with the same identifier (name{section.1}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.367 		\section{Kinematics Review}
+l.371 		\section{Kinematics Review}
                                     [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
  (./phys.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `phys.out' has not changed.
 (rerunfilecheck)             Checksum: 082D7718E778281A4C3DE158099EA968;2141.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
  26156 strings out of 493013
  638239 string characters out of 6139317
- 804526 words of memory out of 5000000
+ 804525 words of memory out of 5000000
  29270 multiletter control sequences out of 15000+600000
  10240 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -798,7 +798,7 @@ home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home/t
 urgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/turgon/
 .texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/turgon/.texliv
 e/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on phys.pdf (12 pages, 133016 bytes).
+Output written on phys.pdf (12 pages, 133029 bytes).
 PDF statistics:
  637 PDF objects out of 1000 (max. 8388607)
  292 compressed objects within 3 object streams

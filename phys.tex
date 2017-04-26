@@ -117,10 +117,9 @@
 %}}}
 %{{{E&M
 \part{Electrostatics and Magnetism}
-
 		%{{{Field and Voltage basics	
 		\section{Field \& Voltage Basics}
-		%{{{Coulomb's Law
+				%{{{Coulomb's Law
 				\subsection{Coulomb's Law}
 						\subsubsection{Force}
 								The force that two charge particles exert on eacother is defined as:
@@ -146,12 +145,12 @@
 				\subsection{Electric Potential}
 						Electric Potential is defined as the work required to bring a positive unit charge ($q$) from a reference point to a specific point within an electric field. The reference point is often infinity, where there is effectively no influence from the field on a charge. The electric potential created by a point charge $Q$ at distance $r$ is given by:
 						\begin{equation*}
-							V = \frac{kQ}{r} = \frac{1}{4\pi\epsilon_{0}}\frac{Q}{r}
+								V = \frac{kQ}{r} = \frac{1}{4\pi\epsilon_{0}}\frac{Q}{r}
 						\end{equation*}
 
 						For constant fields(e.g. parallel plates), the electric potential at distance $d$ from the postive place in and electric field $E$ is given by
 						\begin{equation*}
-							V = Ed
+								V = Ed
 						\end{equation*}
 
 						%{{{Potential and Work
@@ -168,43 +167,44 @@
 								The collection of all point within an electric field that have equal potential is called an equipotential surface. The surfaces always form on a plane perpindicular to electric field lines, and no work is done in moving along an equipotential surface, only between them.
 
 						%}}}
-						\setcounter{subsection}{0}
-						\setcounter{subsubsection}{0}
+				\setcounter{subsection}{0}
+				\setcounter{subsubsection}{0}
 				%}}}
 		%}}}
 		%{{{Calculus Field and Potential
 		\section{Field and Potential Using Calculus}
+				%{{{Ring Charge
 				\subsection{Ring Charge}
 						<image goes here>\\*
 						\subsubsection{Setting Up The Integral}
-							Since 
-							\begin{equation*}
-									E = \frac{kQ}{r^{2}}
-							\end{equation*}
+								Since 
+								\begin{equation*}
+										E = \frac{kQ}{r^{2}}
+								\end{equation*}
 
-							thus,
+								thus,
 
-							\begin{equation*}
-									\mathrm{d}E = \frac{k\mathrm{d}q}{r^{2}}
-							\end{equation*}
+								\begin{equation*}
+										\mathrm{d}E = \frac{k\mathrm{d}q}{r^{2}}
+								\end{equation*}
 
-							Since the horizontal components of the field cancel out, the only remaining parts are the vertical components. Thus, the effective field integral is:
-							
-							\begin{equation*}
-									\mathrm{d}E = \frac{k\cos{\theta}\mathrm{d}q}{r^{2}}
-							\end{equation*}
+								Since the horizontal components of the field cancel out, the only remaining parts are the vertical components. Thus, the effective field integral is:
 
-							Since $\cos{\theta} = \frac{Z}{r}$, 
+								\begin{equation*}
+										\mathrm{d}E = \frac{k\cos{\theta}\mathrm{d}q}{r^{2}}
+								\end{equation*}
 
-							\begin{equation*}
-									\mathrm{d}E = \frac{kZ\mathrm{d}q}{r^{3}}
-							\end{equation*}
+								Since $\cos{\theta} = \frac{Z}{r}$, 
 
-							We want $E$, not $\mathrm{d}E$, so we apply the integral:
-							
-							\begin{equation*}
-									\int \mathrm{d}E = \int \frac{kZ\mathrm{d}q}{r^{3}}
-							\end{equation*}
+								\begin{equation*}
+										\mathrm{d}E = \frac{kZ\mathrm{d}q}{r^{3}}
+								\end{equation*}
+
+								We want $E$, not $\mathrm{d}E$, so we apply the integral:
+
+								\begin{equation*}
+										\int \mathrm{d}E = \int \frac{kZ\mathrm{d}q}{r^{3}}
+								\end{equation*}
 
 						\subsubsection{Integrating}
 								\begin{equation*}
@@ -217,7 +217,9 @@
 										E = \frac{kZQ}{(Z^{2} + R^{2})^{\frac{3}{2} }}
 								\end{equation*}
 
-				\setcounter{subsubsection}{0}
+						\setcounter{subsubsection}{0}
+				%}}}
+				%{{{Section of Ring Charge
 				\subsection{Part of a Ring}
 						image goes here\\*
 						\subsubsection{Setting Up the Integral}
@@ -229,7 +231,7 @@
 								\begin{equation*}
 										E = \int \frac{k\lambda \mathrm{d}s}{r^{2}}
 								\end{equation*}
-								
+
 								Since the components not parallel with the line drawn from the center of the arc cancel eachother out, the actual field that is given by 
 								\begin{equation*}
 										E = \int \frac{k\lambda \cos{\theta} \mathrm{d}s}{r^{2}}
@@ -240,18 +242,20 @@
 										E = \int_{a}^{b} \frac{k\lambda \cos{\theta}\mathrm{d}\theta}{r}
 								\end{equation*}
 								Where $a$ and $b$ are the angle bounds of the arc relative to the normal
-								
+
 						\subsubsection{Integration}
 								\begin{equation*}
 										E =\frac{k\lambda}{r}  \int_{a}^{b} \cos{\theta}\mathrm{d}\theta
 								\end{equation*}
-										
+
 								\begin{equation*}
 										E = \frac{k\lambda}{r} (\sin{b} - \sin{a})
 								\end{equation*}
 				\setcounter{subsubsection}{0}
-			\setcounter{subsection}{0}
-
+		\setcounter{subsection}{0}
+				%}}}
+		%}}}
+		%{{{Gauss' Law
 		\section{Gauss' Law}
 				Gauss' law states that the total electrical flux $\phi$ through the a Gaussian surface $A$ is equal to the enclosed charge $q_{enc}$ over the vacuum permitivity $\epsilon_{0}$. Since $\phi = E_{\bot} A$, This is given by:
 
@@ -265,14 +269,14 @@
 						\item $\sigma$: Area Charge Density
 						\item $\rho$: Volumetric Charge Density
 				\end{itemize}
-				
 				\subsection{Field within Insulating Spheres}
+						%{{{Uniform Charge Density of Insulating Sphere
 						\subsubsection{Uniform Charge Density}
 								If the insulating sphere with radius $R$ and a uniform volume charge density $\rho$, then calculus is not needed to determine the charge enclosed by a Gaussian sphere of radius $r$
 								\begin{equation*}
 										\rho = \frac{Q}{V} = \frac{\mathrm{d}q}{\mathrm{d}V} 
 								\end{equation*}
-										
+
 								\begin{equation*}
 										\rho = \frac{Q}{\frac{4}{3}\pi R^{3}} = \frac{q_{enc}}{\frac{4}{3}\pi r^{3}}
 								\end{equation*}
@@ -280,82 +284,82 @@
 								\begin{equation*}
 										q_{enc} = \frac{Qr^{3}}{R^{3}}
 								\end{equation*}
-
+						%}}}
+						%{{{Nonuniform Charge Density
 						\subsubsection{Non-Uniform Charge Density}
-							If the charge density $\rho$ varies as a function of $r$, then to find the charge enclosed you must use calculus.					
-							\begin{equation*}
-									\rho(r) = \frac{\mathrm{d}q}{\mathrm{d}V} 
-							\end{equation*}
+								If the charge density $\rho$ varies as a function of $r$, then to find the charge enclosed you must use calculus.					
+								\begin{equation*}
+										\rho(r) = \frac{\mathrm{d}q}{\mathrm{d}V} 
+								\end{equation*}
 
-							\begin{equation*}
-									\rho(r) \mathrm{d}V = \mathrm{d}q 
-							\end{equation*}
+								\begin{equation*}
+										\rho(r) \mathrm{d}V = \mathrm{d}q 
+								\end{equation*}
 
-							Since $V_{r} = \frac{4}{3}\pi r^{3}$, $\mathrm{d}V = 4 \pi r^{2} \mathrm{d}r$,
+								Since $V_{r} = \frac{4}{3}\pi r^{3}$, $\mathrm{d}V = 4 \pi r^{2} \mathrm{d}r$,
 
-							\begin{equation*}
-									\rho(r) 4 \pi r^{2} \mathrm{d}r = \mathrm{d}q
-							\end{equation*}
+								\begin{equation*}
+										\rho(r) 4 \pi r^{2} \mathrm{d}r = \mathrm{d}q
+								\end{equation*}
 
-							\begin{equation*}
-									Q_{R} = \int_{0}^{R} \rho(r) 4 \pi r^{2} \mathrm{d}r 
-							\end{equation*}
+								\begin{equation*}
+										Q_{R} = \int_{0}^{R} \rho(r) 4 \pi r^{2} \mathrm{d}r 
+								\end{equation*}
 
-							Where $R$ is the radius inside the nonuniform charge density that you are evaluating.
-
+								Where $R$ is the radius inside the nonuniform charge density that you are evaluating.
+						%}}}
+						%{{{Field Inside of Sphere
 						\subsubsection{Field Inside of the Sphere}
-							Using Gauss' Law, and the equations for the charge enclosed at a certain radius, we can find the field at a given point. Recall that the charge enclosed $q_{enc}$ in a gaussian surface is:
-							\begin{itemize}
-									\item $\frac{Qr^{3}}{R^{3}}$ for a uniform charge density
-									\item $\int_{0}^{r} \rho(x) 4 \pi r^{2} \mathrm{d}x$ for a nonuniform charge density $\rho(x)$ 
-									\item $Q$ whenever $r_{Gauss} > R_{Sphere}$
-							\end{itemize}
-							
-							Applying this to Gauss' Law, we see that:
+								Using Gauss' Law, and the equations for the charge enclosed at a certain radius, we can find the field at a given point. Recall that the charge enclosed $q_{enc}$ in a gaussian surface is:
+								\begin{itemize}
+										\item $\frac{Qr^{3}}{R^{3}}$ for a uniform charge density
+										\item $\int_{0}^{r} \rho(x) 4 \pi r^{2} \mathrm{d}x$ for a nonuniform charge density $\rho(x)$ 
+										\item $Q$ whenever $r_{Gauss} > R_{Sphere}$
+								\end{itemize}
 
-							\begin{equation*}
-									\oint E \mathrm{d}A = \frac{q_{enc}}{\epsilon_{0}}
-							\end{equation*}
+								Applying this to Gauss' Law, we see that:
 
-							Applying the dimensions of a sphere to this gives us:
+								\begin{equation*}
+										\oint E \mathrm{d}A = \frac{q_{enc}}{\epsilon_{0}}
+								\end{equation*}
 
-							\begin{equation*}
-									E = \frac{q_{enc}}{4 \pi r^{2} \epsilon_{0}}
-							\end{equation*}
+								Applying the dimensions of a sphere to this gives us:
 
-							The graph of the field resembles:\\*
-							\begin{tikzpicture}
-									\begin{axis}[
-													xmin = 0,
-													ymin = 0,
-													xtick distance = {100},
-													extra x ticks = {1},
-													extra x tick labels = {$R$},
-													xtickmin = 0,
-													ytickmax = 0,
-													ytickmin = 0,
-													ylabel = {$E(\frac{N}{C})$},
-													xlabel = {$r(m)$}]
-												
-											\addplot[domain = 0:1]{x};
-											\addplot[domain = 1:2]{1/(x^2)};
-									\end{axis}
-							\end{tikzpicture}
+								\begin{equation*}
+										E = \frac{q_{enc}}{4 \pi r^{2} \epsilon_{0}}
+								\end{equation*}
 
-					\subsection{Field Within a Conducting Sphere}
-							Since electrons repel eachother, if they are allowed to move, they will move to the furthest distance that they can get from eachother. For a conduction sphere, this is the outermost level of the sphere. Thus, a charged conducting sphere is for all intents and purposes, a shell of charge. Applying Gauss' law in this situation tells us that there is 0 field everywhere within the sphere, as there is no charge enclosed in any Gaussian surface made in the sphere. The field generated from the sphere beyond the sphere itself however, behaves the same way as that of an insulating sphere, as the charge enclosed is the same. 
-							There are a few things to note about conducting spheres:
-							\begin{itemize}
-									\item The charge will always stay totally on the outside shell of the sphere
-									\item Even if there is a hole within the sphere, field will still be 0
-									\item Field will compensate if there is charge inside of the conductor, say on the inner shell, so that there is no internal field no matter what. 
-							\end{itemize}
+								The graph of the field resembles:\\*
+								\begin{tikzpicture}
+										\begin{axis}[
+												xmin = 0,
+												ymin = 0,
+												xtick distance = {100},
+												extra x ticks = {1},
+												extra x tick labels = {$R$},
+												xtickmin = 0,
+												ytickmax = 0,
+												ytickmin = 0,
+												ylabel = {$E(\frac{N}{C})$},
+												xlabel = {$r(m)$}]
+
+												\addplot[domain = 0:1]{x};
+												\addplot[domain = 1:2]{1/(x^2)};
+										\end{axis}
+								\end{tikzpicture}
+						%}}}
+				%{{{Field within a conducting sphere
+				\subsection{Field Within a Conducting Sphere}
+						Since electrons repel eachother, if they are allowed to move, they will move to the furthest distance that they can get from eachother. For a conduction sphere, this is the outermost level of the sphere. Thus, a charged conducting sphere is for all intents and purposes, a shell of charge. Applying Gauss' law in this situation tells us that there is 0 field everywhere within the sphere, as there is no charge enclosed in any Gaussian surface made in the sphere. The field generated from the sphere beyond the sphere itself however, behaves the same way as that of an insulating sphere, as the charge enclosed is the same. 
+						There are a few things to note about conducting spheres:
+						\begin{itemize}
+								\item The charge will always stay totally on the outside shell of the sphere
+								\item Even if there is a hole within the sphere, field will still be 0
+								\item Field will compensate if there is charge inside of the conductor, say on the inner shell, so that there is no internal field no matter what. 
+						\end{itemize}
 				\setcounter{subsubsection}{0}
-
-
-
+				%}}}
 		%}}}
-
 %}}}	
 \setcounter{section}{0}
 \setcounter{subsection}{0}
