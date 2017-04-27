@@ -2,6 +2,8 @@
 %{{{Preamble
 \usepackage{mathtools}
 \usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{circuitikz}
 \usepackage{color}
 \usepackage{hyperref}
 \hypersetup{colorlinks = true,
@@ -328,7 +330,7 @@
 								\begin{equation*}
 										E = \frac{q_{enc}}{4 \pi r^{2} \epsilon_{0}}
 								\end{equation*}
-
+						\subsubsection{Field Graph}
 								The graph of the field resembles:\\*
 								\begin{tikzpicture}
 										\begin{axis}[
@@ -347,7 +349,90 @@
 												\addplot[domain = 1:2]{1/(x^2)};
 										\end{axis}
 								\end{tikzpicture}
+				\setcounter{subsubsection}{0}
 						%}}}
+
+				\subsection{Insulating Sphere with a Hole}
+					INSERT PICTURE HERE\\*
+
+					There are three distinct areas of this sphere:
+					\begin{itemize}
+							\item $r < a$
+							\item $a < r < b$
+							\item $b < r$
+					\end{itemize}
+
+					Where $r$ is the radius of the Gaussian Sphere you are evaluating field at. The field must be evaluated separately at each area.
+					\subsubsection{Within the Hole($r < a$)}
+						Since there is no charge enclosed within the hole, there is no field withing the hole. Proof:
+
+						\begin{equation*}
+							\oint E_{\bot} \mathrm{d}A = \frac{q_{enc}}{\epsilon_{0}} = 0
+						\end{equation*}
+
+					\subsubsection{Between the Hole and the Edge of Sphere($a < r < b$)}
+
+						Find the Charge Enclosed:
+
+						\begin{equation*}
+								\rho = \frac{Q}{V} = \frac{q_{enc}}{V_{enc}}
+						\end{equation*}
+
+						\begin{equation*}
+								V_{enc} = \frac{4}{3} \pi (r^{3} - a^{3}) 
+						\end{equation*}
+
+						\begin{equation*}
+								\frac{Q}{\frac{4}{3} \pi (b^{3} - r^{3})} = \frac{q_{enc}}{\frac{4}{3} \pi (r^{3} - a^{3})} 
+						\end{equation*}
+
+						\begin{equation*}
+								\frac{Q(r^{3} - a^{3})}{b^{3} - a^{3}} = q_{enc}
+						\end{equation*}
+
+						Apply Gauss' Law:
+
+						\begin{equation*}
+								\epsilon_{0} \oint E_{\bot} \mathrm{d}A = \frac{Q(r^{3} - a^{3})}{b^{3} - a^{3}}
+						\end{equation*}
+						
+						\begin{equation*}
+								E 4 \pi r^{2} = \frac{Q(r^{3} - a^{3})}{\epsilon_{0} (b^{3} - a^{3})}
+						\end{equation*}
+
+						\begin{equation*}
+								E = \frac{Q(r^{3} - a^{3})}{\epsilon_{0} 4 \pi r^{2} (b^{3} - a^{3})}
+						\end{equation*}
+					\subsubsection{Outside of the Sphere($b < a$)}
+						Since the only thing that matters in Gauss' Law is the enclosed charge, even if there is a hole in the center the sphere behaves like a solid sphere outside of the sphere.
+						\begin{equation*}
+								E = \frac{Q}{\epsilon_{0} 4 \pi r^{2}} 
+						\end{equation*}
+
+					\subsubsection{Field Graph}
+					 The graph of the field will resemble:\\*
+					 \begin{tikzpicture}
+							 \begin{axis}[
+											 xmin = 0,
+											 ymin = 0,
+											 xtick distance = {100},
+											 extra x ticks = {1,2},
+											 extra x tick labels = {$a$, $b$},
+											 xtickmin = 0.5,
+											 ytickmin = 0,
+											 ytickmax = 0,
+											ylabel = {$E(\frac{N}{C})$},
+											xlabel = {$r(m)$}]
+
+											\addplot[domain = 1:2]{x^3 - 1};
+											\addplot[domain = 2:4]{1/((x-1.62)^2)};
+							\end{axis}
+					 \end{tikzpicture}
+
+					 Where $a$ is the radius of the hole, and $b$ is the radius of the sphere
+
+				\setcounter{subsubsection}{0}
+
 				%{{{Field within a conducting sphere
 				\subsection{Field Within a Conducting Sphere}
 						Since electrons repel eachother, if they are allowed to move, they will move to the furthest distance that they can get from eachother. For a conduction sphere, this is the outermost level of the sphere. Thus, a charged conducting sphere is for all intents and purposes, a shell of charge. Applying Gauss' law in this situation tells us that there is 0 field everywhere within the sphere, as there is no charge enclosed in any Gaussian surface made in the sphere. The field generated from the sphere beyond the sphere itself however, behaves the same way as that of an insulating sphere, as the charge enclosed is the same. 
@@ -359,6 +444,106 @@
 						\end{itemize}
 				\setcounter{subsubsection}{0}
 				%}}}
+				\subsection{Field at the Surface of a Conducting Surface}
+					INSERT PICTURE HERE\\*
+					
+					Apply Gauss' law to situation:
+					\begin{equation*}
+							\epsilon_{0} \oint E_{\bot} \mathrm{d}A = q_{enc}
+					\end{equation*}
+
+					Since $\sigma= \frac{Q}{A} = \frac{\mathrm{d}q}{\mathrm{d}A}$,
+
+					\begin{equation*}
+							\epsilon_{0}E A_{Gauss} = \sigma A_{Gauss}
+					\end{equation*}
+
+					Thus:
+
+					\begin{equation*}
+							E = \frac{\sigma}{\epsilon_{0}}
+					\end{equation*}
+
+				\subsection{Field of a thin, Nonconducting sheet}
+					INSERT PICTURE HERE\\*
+
+					Apply Gauss' law to situation:
+					\begin{equation*}
+							\epsilon_{0} \oint E_{\bot} \mathrm{d}A = q_{enc}
+					\end{equation*}
+
+					Since $\sigma= \frac{Q}{A} = \frac{\mathrm{d}q}{\mathrm{d}A}$,
+
+					\begin{equation*}
+							\epsilon_{0}2E A_{Gauss} = \sigma A_{Gauss}
+					\end{equation*}
+
+					Thus:
+
+					\begin{equation*}
+							E = \frac{\sigma}{2\epsilon_{0}}
+					\end{equation*}
+
+				\subsection{Field Between Insulating Plates}
+					INSERT PICTURE HERE\\*
+
+				    FINISH THIS SECTION LATER	
+
+				\subsection{Field of a Long Conducting Rod}
+					INSERT PICTURE HERE\\*
+
+					Applying Gauss' Law:
+					
+					\begin{equation*}
+							\epsilon_{0} \oint E_{\bot} \mathrm{d}A = q_{enc}
+					\end{equation*}
+
+					Since the surface area of a cylinder excluding the two faces is given by $2\pi r h$, where $r$ is the radius of the cylinder and $h$ is its length:
+
+					\begin{equation*}
+							\epsilon_{0} E 2 \pi r h = q_{enc}
+					\end{equation*}
+
+					Since $\lambda = \frac{Q}{h} = \frac{\mathrm{d}q}{h}$,
+
+					\begin{equation*}
+							\epsilon_{0} E 2 \pi r h = \lambda h 
+					\end{equation*}
+
+					\begin{equation*}
+							E = \frac{\lambda}{\epsilon_{0} 2 \pi r}
+					\end{equation*}
+				
+				\subsection{Electric Potential Using Gauss}
+					\begin{equation*}
+							\Delta V = -\int E \mathrm{d}x 
+					\end{equation*}
+
+						Thus, the electric potential at a point around a charged sphere can be found using Gauss' law. For example, for a conducting sphere of charge $Q$, the electric potential can be found at a point  $r$ fron its center outside of the shelll like so:							
+						\begin{equation*}
+								\Delta V =-\int_{\infty}^{r} \frac{Q}{4 \pi \epsilon_{0} r^{2}} \mathrm{d}x
+						\end{equation*}
+
+						\begin{equation*}
+								V_{r} - V_{\infty} = -\frac{Q}{4 \pi \epsilon_{0}}\left[-\frac{1}{r}\right]_{\infty}^{r}
+						\end{equation*}
+
+						\begin{equation*}
+								V_{r} = -\frac{Q}{4\pi \epsilon_{0}} \left(-\frac{1}{r} + \frac{1}{\infty}\right)
+						\end{equation*}
+
+						\begin{equation*}
+								V_{r} = \frac{Q}{4\pi \epsilon{0} r}
+						\end{equation*}
+
+						Which is the same expression that was gained from Coulomb's law.
+				\setcounter{subsubsection}{0}
+			\setcounter{subsection}{0}
+		%}}}
+
+		%{{{Circuits
+		\section{Circuits}
+
 		%}}}
 %}}}	
 \setcounter{section}{0}

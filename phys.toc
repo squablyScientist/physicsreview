@@ -27,6 +27,18 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Uniform Charge Density}{VI}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Non-Uniform Charge Density}{VII}{subsubsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.3}Field Inside of the Sphere}{VII}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Field Within a Conducting Sphere}{VIII}{subsection.3.2}
-\contentsline {part}{III\hspace {1em}Mechanics}{IX}{part.3}
-\contentsline {section}{\numberline {1}Kinematics Review}{IX}{section.1}
+\contentsline {subsubsection}{\numberline {3.1.4}Field Graph}{VIII}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Insulating Sphere with a Hole}{VIII}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Within the Hole($r < a$)}{VIII}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Between the Hole and the Edge of Sphere($a < r < b$)}{IX}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Outside of the Sphere($b < a$)}{IX}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Field Graph}{X}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Field Within a Conducting Sphere}{X}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Field at the Surface of a Conducting Surface}{X}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Field of a thin, Nonconducting sheet}{XI}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Field Between Insulating Plates}{XI}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Field of a Long Conducting Rod}{XI}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Electric Potential Using Gauss}{XII}{subsection.3.8}
+\contentsline {section}{\numberline {4}Circuits}{XII}{section.4}
+\contentsline {part}{III\hspace {1em}Mechanics}{XIII}{part.3}
+\contentsline {section}{\numberline {1}Kinematics Review}{XIII}{section.1}

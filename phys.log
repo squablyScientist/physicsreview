@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  26 APR 2017 07:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  27 APR 2017 08:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -498,7 +498,42 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+))) (/usr/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2016/09/08{} The CircuiTikz circuit drawing package version
+ 0.7
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen183
+)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@res@up=\dimen184
+\pgf@circ@res@down=\dimen185
+\pgf@circ@res@zero=\dimen186
+\pgf@circ@res@left=\dimen187
+\pgf@circ@res@right=\dimen188
+\pgf@circ@res@other=\dimen189
+\pgf@circ@res@step=\dimen190
+\pgf@circ@res@temp=\dimen191
+\pgfstartlinewidth=\dimen192
+\pgf@circ@Rlen=\dimen193
+)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircmath.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -554,7 +589,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen183
+\@linkdim=\dimen194
 \Hy@linkcounter=\count131
 \Hy@pagecounter=\count132
 
@@ -580,10 +615,10 @@ Package hyperref Info: Bookmarks ON on input line 4735.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen184
+\XeTeXLinkMargin=\dimen195
 \Fld@menulength=\count135
-\Field@Width=\dimen185
-\Fld@charsize=\dimen186
+\Field@Width=\dimen196
+\Fld@charsize=\dimen197
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -612,35 +647,35 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 9.
+Package hyperref Info: Option `colorlinks' set `true' on input line 11.
  (./phys.aux)
 \openout1 = `phys.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count141
-\scratchdimen=\dimen187
+\scratchdimen=\dimen198
 \scratchbox=\box40
 \nofMPsegments=\count142
 \nofMParguments=\count143
 \everyMPshowfont=\toks36
 \MPscratchCnt=\count144
-\MPscratchDim=\dimen188
+\MPscratchDim=\dimen199
 \MPnumerator=\count145
 \makeMPintoPDFobject=\count146
 \everyMPtoPDFconversion=\toks37
@@ -666,10 +701,10 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 13.
+ on input line 15.
 
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 13.
+Package hyperref Info: Link coloring ON on input line 15.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -678,9 +713,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (./phys.out)
 (./phys.out)
 \@outlinefile=\write4
@@ -693,7 +728,22 @@ Overfull \hbox (3.96521pt too wide) detected at line 30
  [][][]\OT1/cmr/m/n/12 VIII[][]
  []
 
-)
+
+Overfull \hbox (3.96521pt too wide) detected at line 31
+ [][][]\OT1/cmr/m/n/12 VIII[][]
+ []
+
+
+Overfull \hbox (3.96521pt too wide) detected at line 32
+ [][][]\OT1/cmr/m/n/12 VIII[][]
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 ...3.2.4}Field Graph}{X}{subsubsection.3.2.4}
+                                                   [2])
 \tf@toc=\write5
 \openout5 = `phys.toc'.
 
@@ -701,42 +751,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 \newpage
-              [2]pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 \newpage
+l.20 \newpage
               [3]
-Underfull \hbox (badness 10000) in paragraph at lines 33--40
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [1] [2]pdfTeX warning (ext4): destination with the same identifier (name{secti
 on.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 		\section{Field \& Voltage Basics}
+l.123 		\section{Field \& Voltage Basics}
                                           [3]pdfTeX warning (ext4): destination
  with the same identifier (name{section.2}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
-l.175 ...ction{Field and Potential Using Calculus}
+l.177 ...ction{Field and Potential Using Calculus}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{subsection.2.1}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.177 				\subsection{Ring Charge}
+l.179 				\subsection{Ring Charge}
                                   
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
@@ -744,9 +789,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 .2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 				\subsection{Part of a Ring}
+l.225 				\subsection{Part of a Ring}
                                      
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
@@ -754,54 +799,103 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsubsection
 .2.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.225 ...		\subsubsection{Setting Up the Integral}
+l.227 ...		\subsubsection{Setting Up the Integral}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{subsubsection.2.2.2}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.246 						\subsubsection{Integration}
-                                        [5] [6] [7] [8]pdfTeX warning (ext4): d
-estination with the same identifier (name{section.1}) has been already used, du
-plicate ignored
+l.248 						\subsubsection{Integration}
+                                        [5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 366.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 366.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 373.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 373.
+
+[8]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 406.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 406.
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+[11] [12]pdfTeX warning (ext4): destination with the same identifier (name{sect
+ion.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.371 		\section{Kinematics Review}
-                                    [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+l.556 		\section{Kinematics Review}
+                                    [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 564.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 564.
  (./phys.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 564.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 564.
 Package rerunfilecheck Info: File `phys.out' has not changed.
-(rerunfilecheck)             Checksum: 082D7718E778281A4C3DE158099EA968;2141.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
+(rerunfilecheck)             Checksum: 1ADA2269DEA9C092199B0BB3053455FE;3119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 564.
  ) 
 Here is how much of TeX's memory you used:
- 26156 strings out of 493013
- 638239 string characters out of 6139317
- 804525 words of memory out of 5000000
- 29270 multiletter control sequences out of 15000+600000
+ 32845 strings out of 493013
+ 839811 string characters out of 6139317
+ 1096418 words of memory out of 5000000
+ 35896 multiletter control sequences out of 15000+600000
  10240 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,96p,718b,1840s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,96p,717b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </us
 r/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr6.pk> </home/turgon/.tex
 live/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk> </usr/share/texmf-dist/fo
 nts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/turgon/.texlive/texmf-var/fonts/
 pk/ljfour/public/cm/cmex10.720pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljf
 our/public/cm/cmsy10.720pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/pu
-blic/cm/cmmi12.600pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/c
-m/cmbx12.1244pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.
+blic/cm/cmbx12.1244pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/
+cm/cmmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.
 pk> </home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </
 home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home/t
 urgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/turgon/
 .texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/turgon/.texliv
 e/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on phys.pdf (12 pages, 133029 bytes).
+Output written on phys.pdf (16 pages, 150842 bytes).
 PDF statistics:
- 637 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 754 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
