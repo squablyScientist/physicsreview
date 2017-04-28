@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  27 APR 2017 08:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  28 APR 2017 08:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,22 +860,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 493--494
 ion.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.556 		\section{Kinematics Review}
+l.558 		\section{Kinematics Review}
                                     [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 564.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 564.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
  (./phys.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 564.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 564.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
 Package rerunfilecheck Info: File `phys.out' has not changed.
-(rerunfilecheck)             Checksum: 1ADA2269DEA9C092199B0BB3053455FE;3119.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 564.
+(rerunfilecheck)             Checksum: 7615B900A56D9B7AF67990036BBF5F6A;3184.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
  ) 
 Here is how much of TeX's memory you used:
- 32845 strings out of 493013
- 839811 string characters out of 6139317
- 1096418 words of memory out of 5000000
- 35896 multiletter control sequences out of 15000+600000
+ 32847 strings out of 493013
+ 839841 string characters out of 6139317
+ 1096422 words of memory out of 5000000
+ 35897 multiletter control sequences out of 15000+600000
  10240 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,96p,717b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -892,10 +892,10 @@ home/turgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home/t
 urgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/turgon/
 .texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/turgon/.texliv
 e/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on phys.pdf (16 pages, 150842 bytes).
+Output written on phys.pdf (16 pages, 152122 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
- 53 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 763 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
