@@ -48,10 +48,11 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Ammeter}{XIV}{subsubsection.6.2.2}
 \contentsline {subsection}{\numberline {6.3}RC Circuits}{XIV}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}Charge as a Function of Time}{XV}{subsubsection.6.3.1}
-\contentsline {section}{\numberline {7}Capacitors}{XVI}{section.7}
-\contentsline {subsection}{\numberline {7.1}Finding the Capacitance of Different Capacitors}{XVI}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Discharging Capacitor Time Function}{XVI}{subsubsection.6.3.2}
+\contentsline {section}{\numberline {7}Capacitors}{XVII}{section.7}
+\contentsline {subsection}{\numberline {7.1}Finding the Capacitance of Different Capacitors}{XVII}{subsection.7.1}
 \contentsline {subsubsection}{\numberline {7.1.1}Parallel Plate Capacitor}{XVII}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Cylindrical Capacitor}{XVII}{subsubsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.3}Spherical Capacitor}{XVIII}{subsubsection.7.1.3}
-\contentsline {part}{III\hspace {1em}Mechanics}{XIX}{part.3}
-\contentsline {section}{\numberline {8}Kinematics Review}{XIX}{section.8}
+\contentsline {subsubsection}{\numberline {7.1.2}Cylindrical Capacitor}{XVIII}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Spherical Capacitor}{XIX}{subsubsection.7.1.3}
+\contentsline {part}{III\hspace {1em}Mechanics}{XX}{part.3}
+\contentsline {section}{\numberline {8}Kinematics Review}{XX}{section.8}

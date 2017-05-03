@@ -676,17 +676,60 @@
 						\begin{equation*}
 								Q_{t} - V_{0}C = -V_{0}C\mathrm{e}^{-\frac{t}{RC}}
 						\end{equation*}
+						
+						Thus, the charge $Q$ at time $t$ aftwer current begins to flow to the capacitor of capacitance $C$ through resistance $R$ is given by: 
 
 						\begin{equation*}
 								Q_{t} = V_{0}C\left(1-\mathrm{e}^{-\frac{t}{RC}}\right)
 						\end{equation*}
 
+						Both sides can be divided by $C$ to give us the equation for voltage in respect for time
 
-
+						\begin{equation*}
+								V = V_{0}\left(1-\mathrm{e}^{-\frac{t}{RC}}\right)
+						\end{equation*}
 						
 
+					\subsubsection{Discharging Capacitor Time Function}
+						When a capacitor becomes the source of emf, it discharges over time, losing its charge. To derive this, we use Kirchoff's again by have the $V_{0}$ be 0.
 
+						\begin{equation*}
+								0 = IR + \frac{Q}{C}
+						\end{equation*}
 
+						\begin{equation*}
+								-\frac{Q}{RC} = \frac{\mathrm{d}Q}{\mathrm{d}t} 
+						\end{equation*}
+
+						\begin{equation*}
+								-\frac{\mathrm{d}t}{RC} = \frac{\mathrm{d}Q}{Q} 
+						\end{equation*}
+
+						\begin{equation*}
+								-\frac{1}{RC}\int_{0}^{t} \mathrm{d}t = \int_{Q_{max}}^{Q_{t}} \frac{\mathrm{d}Q}{Q}
+						\end{equation*}
+
+						\begin{equation*}
+								-\frac{t}{RC} = \ln\left( Q_{t} \right) - \ln\left( Q_{max}\right)
+						\end{equation*}
+
+						\begin{equation*}
+								-\frac{t}{RC} = \ln\left( \frac{Q_{t}}{Q_{max}} \right)
+						\end{equation*}
+
+						\begin{equation*}
+								\mathrm{e}^{-\frac{t}{RC}} = \frac{Q_{t}}{Q_{max}}
+						\end{equation*}
+
+						\begin{equation*}
+								Q_{t} =	Q_{max}	\mathrm{e}^{-\frac{t}{RC}}
+						\end{equation*}
+
+						By again dividing both sided by capacitance, it is possible to get the voltage over the capacitor as a function of time:
+
+						\begin{equation*}
+								V_{t} =	V_{0}	\mathrm{e}^{-\frac{t}{RC}}
+						\end{equation*}
 			%}}}
 		%}}}
 	%{{{Capacitors
@@ -809,6 +852,10 @@
 
 			%}}}
 		%}}}
+	%}}}
+	%{{{MAgnetism
+	\section{Magnetism}
+
 	%}}}
 \newpage
 %}}}

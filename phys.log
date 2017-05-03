@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  3 MAY 2017 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  3 MAY 2017 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,7 +823,7 @@ Overfull \hbox (3.64299pt too wide) detected at line 49
  []
 
 
-Overfull \hbox (3.64299pt too wide) detected at line 52
+Overfull \hbox (3.64299pt too wide) detected at line 51
  [][][]\OT1/cmr/m/n/12 XVI[][]
  []
 
@@ -840,6 +840,11 @@ Overfull \hbox (8.20822pt too wide) detected at line 54
 
 Overfull \hbox (12.77345pt too wide) detected at line 55
  [][][]\OT1/cmr/m/n/12 XVIII[][]
+ []
+
+
+Overfull \hbox (3.64299pt too wide) detected at line 56
+ [][][]\OT1/cmr/m/n/12 XIX[][]
  []
 
 )
@@ -947,31 +952,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
-[14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
+[14] [15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
 
  []
 
-[18] [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 825.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 825.
+[18] [19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 868.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 868.
  (./phys.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 825.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 825.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 868.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 868.
 Package rerunfilecheck Info: File `phys.out' has not changed.
-(rerunfilecheck)             Checksum: 219A438BF4BC9084951294F06B53457C;4093.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 825.
+(rerunfilecheck)             Checksum: B028AC03ABB74D743963969681507EE1;4188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 868.
  ) 
 Here is how much of TeX's memory you used:
- 33488 strings out of 493013
- 854621 string characters out of 6139317
+ 33491 strings out of 493013
+ 854668 string characters out of 6139317
  1104863 words of memory out of 5000000
- 36510 multiletter control sequences out of 15000+600000
+ 36511 multiletter control sequences out of 15000+600000
  10240 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,96p,717b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -989,10 +994,10 @@ rgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home/turgon/.
 texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/turgon/.texliv
 e/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/turgon/.texlive/texmf
 -var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on phys.pdf (22 pages, 180557 bytes).
+Output written on phys.pdf (23 pages, 183296 bytes).
 PDF statistics:
- 925 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 79 named destinations out of 1000 (max. 500000)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 938 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 469 words of extra memory for PDF output out of 10000 (max. 10000000)
 
