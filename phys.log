@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  2 MAY 2017 07:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.17)  3 MAY 2017 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,7 +791,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...3.2.4}Field Graph}{X}{subsubsection.3.2.4}
+l.35 ...5.2.4}Field Graph}{X}{subsubsection.5.2.4}
                                                    [2]
 Overfull \hbox (3.96521pt too wide) detected at line 44
  [][][]\OT1/cmr/m/n/12 XIII[][]
@@ -818,13 +818,28 @@ Overfull \hbox (3.64299pt too wide) detected at line 48
  []
 
 
-Overfull \hbox (3.64299pt too wide) detected at line 50
+Overfull \hbox (3.64299pt too wide) detected at line 49
  [][][]\OT1/cmr/m/n/12 XIV[][]
  []
 
 
-Overfull \hbox (3.64299pt too wide) detected at line 53
+Overfull \hbox (3.64299pt too wide) detected at line 52
  [][][]\OT1/cmr/m/n/12 XVI[][]
+ []
+
+
+Overfull \hbox (8.20822pt too wide) detected at line 53
+ [][][]\OT1/cmr/m/n/12 XVII[][]
+ []
+
+
+Overfull \hbox (8.20822pt too wide) detected at line 54
+ [][][]\OT1/cmr/m/n/12 XVII[][]
+ []
+
+
+Overfull \hbox (12.77345pt too wide) detected at line 55
+ [][][]\OT1/cmr/m/n/12 XVIII[][]
  []
 
 )
@@ -847,154 +862,116 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
- [1] [2]pdfTeX warning (ext4): destination with the same identifier (name{secti
-on.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 		\section{Field \& Voltage Basics}
-                                          [3]pdfTeX warning (ext4): destination
- with the same identifier (name{section.2}) has been already used, duplicate ig
-nored
-<to be read again> 
-                   \relax 
-l.178 ...ction{Field and Potential Using Calculus}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{subsection.2.1}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.180 				\subsection{Ring Charge}
-                                  
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+ [1] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-[4]pdfTeX warning (ext4): destination with the same identifier (name{subsection
-.2.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.226 				\subsection{Part of a Ring}
-                                     
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{subsubsection
-.2.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.228 ...		\subsubsection{Setting Up the Integral}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{subsubsection.2.2.2}) has been already use
-d, duplicate ignored
-<to be read again> 
-                   \relax 
-l.249 						\subsubsection{Integration}
-                                        [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 367.
+(hyperref)                removing `math shift' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 367.
+(hyperref)                removing `math shift' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 374.
+(hyperref)                removing `math shift' on input line 363.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 374.
+(hyperref)                removing `math shift' on input line 363.
 
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 407.
+(hyperref)                removing `math shift' on input line 396.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 407.
+(hyperref)                removing `math shift' on input line 396.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 671--672
+[14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 709--710
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
 
  []
 
-[16]pdfTeX warning (ext4): destination with the same identifier (name{section.1
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.749 		\section{Kinematics Review}
-                                    [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
+[18] [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 825.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 825.
  (./phys.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 757.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 825.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 825.
 Package rerunfilecheck Info: File `phys.out' has not changed.
-(rerunfilecheck)             Checksum: 95937D839638F74FC1398D046185BF21;3944.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 757.
+(rerunfilecheck)             Checksum: 219A438BF4BC9084951294F06B53457C;4093.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 825.
  ) 
 Here is how much of TeX's memory you used:
- 33348 strings out of 493013
- 851432 string characters out of 6139317
- 1102853 words of memory out of 5000000
- 36381 multiletter control sequences out of 15000+600000
+ 33488 strings out of 493013
+ 854621 string characters out of 6139317
+ 1104863 words of memory out of 5000000
+ 36510 multiletter control sequences out of 15000+600000
  10240 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,96p,717b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1012,10 +989,10 @@ rgon/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home/turgon/.
 texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/turgon/.texliv
 e/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/turgon/.texlive/texmf
 -var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on phys.pdf (20 pages, 168464 bytes).
+Output written on phys.pdf (22 pages, 180557 bytes).
 PDF statistics:
- 873 PDF objects out of 1000 (max. 8388607)
- 465 compressed objects within 5 object streams
- 68 named destinations out of 1000 (max. 500000)
- 445 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 925 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
